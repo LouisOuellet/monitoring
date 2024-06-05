@@ -1,0 +1,23 @@
+{
+    "name": "laswitchtech/monitoring",
+    "description": "Monitoring application",
+    "type": "project",
+    "require": {
+        "laswitchtech/php-net": "^1.1",
+        "laswitchtech/php-cli": "^2.0",
+        "laswitchtech/php-router": "^1.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laswitchtech\\Monitoring\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Louis Ouellet",
+            "email": "louis_ouellet@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

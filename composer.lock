@@ -1,0 +1,568 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e0d6ee32294519bcae1487ca7adfd752",
+    "packages": [
+        {
+            "name": "components/jquery",
+            "version": "v3.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "8edc7785239bb8c2ad2b83302b856a1d61de60e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/8edc7785239bb8c2ad2b83302b856a1d61de60e7",
+                "reference": "8edc7785239bb8c2ad2b83302b856a1d61de60e7",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "support": {
+                "forum": "http://forum.jquery.com",
+                "irc": "irc://irc.freenode.org/jquery",
+                "issues": "https://github.com/jquery/jquery/issues",
+                "source": "https://github.com/jquery/jquery",
+                "wiki": "http://docs.jquery.com/"
+            },
+            "time": "2023-09-22T01:43:46+00:00"
+        },
+        {
+            "name": "laswitchtech/php-auth",
+            "version": "v3.0.45",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-auth.git",
+                "reference": "2e6c0743facaa251c32d2d9f24186116cfb1d59c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-auth/zipball/2e6c0743facaa251c32d2d9f24186116cfb1d59c",
+                "reference": "2e6c0743facaa251c32d2d9f24186116cfb1d59c",
+                "shasum": ""
+            },
+            "require": {
+                "components/jquery": "^3.6",
+                "laswitchtech/php-configurator": "^1.0",
+                "laswitchtech/php-csrf": "^1.0",
+                "laswitchtech/php-database": "^2.2",
+                "laswitchtech/php-imap": "^2.0",
+                "laswitchtech/php-logger": "^1.1",
+                "laswitchtech/php-net": "^1.1",
+                "laswitchtech/php-sms": "^1.0",
+                "laswitchtech/php-smtp": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpAUTH\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "Authentication and Authorization Library for PHP",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-auth/issues",
+                "source": "https://github.com/LouisOuellet/php-auth/tree/v3.0.45"
+            },
+            "time": "2024-05-22T13:05:56+00:00"
+        },
+        {
+            "name": "laswitchtech/php-cli",
+            "version": "v2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-cli.git",
+                "reference": "30453a1805a56be52a65aefce17d2233a0f0b86e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-cli/zipball/30453a1805a56be52a65aefce17d2233a0f0b86e",
+                "reference": "30453a1805a56be52a65aefce17d2233a0f0b86e",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-database": "^2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpCLI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "Command-Line Interface for PHP Applications",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-cli/issues",
+                "source": "https://github.com/LouisOuellet/php-cli/tree/v2.0.8"
+            },
+            "time": "2024-01-06T18:27:18+00:00"
+        },
+        {
+            "name": "laswitchtech/php-configurator",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-configurator.git",
+                "reference": "0d25f1e6d16652b7966d3cec470713d337fb8a08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-configurator/zipball/0d25f1e6d16652b7966d3cec470713d337fb8a08",
+                "reference": "0d25f1e6d16652b7966d3cec470713d337fb8a08",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpConfigurator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "Configurator Library for PHP Applications",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-configurator/issues",
+                "source": "https://github.com/LouisOuellet/php-configurator/tree/v1.0.4"
+            },
+            "time": "2024-03-21T20:11:03+00:00"
+        },
+        {
+            "name": "laswitchtech/php-csrf",
+            "version": "v1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-csrf.git",
+                "reference": "b03c3244de919ac15f69d972189ae73bce2ecf7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-csrf/zipball/b03c3244de919ac15f69d972189ae73bce2ecf7c",
+                "reference": "b03c3244de919ac15f69d972189ae73bce2ecf7c",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-configurator": "^1.0",
+                "laswitchtech/php-logger": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpCSRF\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "CSRF Protection Library for PHP Applications",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-csrf/issues",
+                "source": "https://github.com/LouisOuellet/php-csrf/tree/v1.1.5"
+            },
+            "time": "2024-04-03T18:18:55+00:00"
+        },
+        {
+            "name": "laswitchtech/php-database",
+            "version": "v2.3.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-database.git",
+                "reference": "de9106d917446387bc689bff3f82728ca61c17f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-database/zipball/de9106d917446387bc689bff3f82728ca61c17f1",
+                "reference": "de9106d917446387bc689bff3f82728ca61c17f1",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-configurator": "^1.0",
+                "laswitchtech/php-logger": "^1.0",
+                "laswitchtech/php-net": "^1.0",
+                "php": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpDB\\": "src/",
+                    "LaswitchTech\\phpDatabase\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "Database Class for PHP",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-database/issues",
+                "source": "https://github.com/LouisOuellet/php-database/tree/v2.3.10"
+            },
+            "time": "2023-07-18T18:08:12+00:00"
+        },
+        {
+            "name": "laswitchtech/php-imap",
+            "version": "v2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-imap.git",
+                "reference": "31b329e370b23137e91e9345a642d578a7d1092d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-imap/zipball/31b329e370b23137e91e9345a642d578a7d1092d",
+                "reference": "31b329e370b23137e91e9345a642d578a7d1092d",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-configurator": "^1.0",
+                "laswitchtech/php-logger": "^1.0",
+                "laswitchtech/php-net": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\IMAP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "phpIMAP is a full-featured mailbox management class for PHP",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-imap/issues",
+                "source": "https://github.com/LouisOuellet/php-imap/tree/v2.1.3"
+            },
+            "time": "2023-04-18T14:03:05+00:00"
+        },
+        {
+            "name": "laswitchtech/php-locale",
+            "version": "v0.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-locale.git",
+                "reference": "dbf1ffa4ba87e9820f562715444289c667835dc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-locale/zipball/dbf1ffa4ba87e9820f562715444289c667835dc3",
+                "reference": "dbf1ffa4ba87e9820f562715444289c667835dc3",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-configurator": "^1.0",
+                "laswitchtech/php-logger": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpLocale\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "PHP Library to handle Locale",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-locale/issues",
+                "source": "https://github.com/LouisOuellet/php-locale/tree/v0.0.7"
+            },
+            "time": "2024-05-27T20:37:31+00:00"
+        },
+        {
+            "name": "laswitchtech/php-logger",
+            "version": "v1.2.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-logger.git",
+                "reference": "531cfe513088f95c1a4015a45ff2af4c06550765"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-logger/zipball/531cfe513088f95c1a4015a45ff2af4c06550765",
+                "reference": "531cfe513088f95c1a4015a45ff2af4c06550765",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-configurator": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpLogger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "Easy to use logging library for PHP",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-logger/issues",
+                "source": "https://github.com/LouisOuellet/php-logger/tree/v1.2.11"
+            },
+            "time": "2024-06-04T13:30:06+00:00"
+        },
+        {
+            "name": "laswitchtech/php-net",
+            "version": "v1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-net.git",
+                "reference": "be11423a87ffad73a48c73abc8e10a774f49dd34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-net/zipball/be11423a87ffad73a48c73abc8e10a774f49dd34",
+                "reference": "be11423a87ffad73a48c73abc8e10a774f49dd34",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-logger": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpNet\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "Network Tools Library for PHP",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-net/issues",
+                "source": "https://github.com/LouisOuellet/php-net/tree/v1.2.3"
+            },
+            "time": "2024-06-05T01:35:13+00:00"
+        },
+        {
+            "name": "laswitchtech/php-router",
+            "version": "v1.5.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-router.git",
+                "reference": "a1fcfd3ef7006b597f4b8fe15a1719c5e8ce3ed8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-router/zipball/a1fcfd3ef7006b597f4b8fe15a1719c5e8ce3ed8",
+                "reference": "a1fcfd3ef7006b597f4b8fe15a1719c5e8ce3ed8",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-auth": "^3.0",
+                "laswitchtech/php-configurator": "^1.0",
+                "laswitchtech/php-database": "^2.3",
+                "laswitchtech/php-locale": "^0.0.7",
+                "laswitchtech/php-logger": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpRouter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "Router Class for PHP",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-router/issues",
+                "source": "https://github.com/LouisOuellet/php-router/tree/v1.5.15"
+            },
+            "time": "2024-05-27T20:44:36+00:00"
+        },
+        {
+            "name": "laswitchtech/php-sms",
+            "version": "v1.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-sms.git",
+                "reference": "031f543b95aab171030632b1fb95a916e8825c41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-sms/zipball/031f543b95aab171030632b1fb95a916e8825c41",
+                "reference": "031f543b95aab171030632b1fb95a916e8825c41",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-configurator": "^1.0",
+                "laswitchtech/php-logger": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpSMS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "SMS Library for PHP Applications",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-sms/issues",
+                "source": "https://github.com/LouisOuellet/php-sms/tree/v1.0.10"
+            },
+            "time": "2023-04-18T14:03:45+00:00"
+        },
+        {
+            "name": "laswitchtech/php-smtp",
+            "version": "v2.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-smtp.git",
+                "reference": "05ed10cf6f9d00bcbec95230d2fb3fa526c19400"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-smtp/zipball/05ed10cf6f9d00bcbec95230d2fb3fa526c19400",
+                "reference": "05ed10cf6f9d00bcbec95230d2fb3fa526c19400",
+                "shasum": ""
+            },
+            "require": {
+                "laswitchtech/php-configurator": "^1.0",
+                "laswitchtech/php-logger": "^1.0",
+                "laswitchtech/php-net": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\SMTP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "This PHP SMTP email library provides a simple and easy-to-use solution for sending emails using SMTP servers.",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-smtp/issues",
+                "source": "https://github.com/LouisOuellet/php-smtp/tree/v2.1.13"
+            },
+            "time": "2024-05-02T12:21:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
