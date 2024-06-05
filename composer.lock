@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0d6ee32294519bcae1487ca7adfd752",
+    "content-hash": "bfd20a9783f4362b1f9f9c2a14d423e8",
     "packages": [
         {
             "name": "components/jquery",
@@ -54,6 +54,82 @@
                 "wiki": "http://docs.jquery.com/"
             },
             "time": "2023-09-22T01:43:46+00:00"
+        },
+        {
+            "name": "laswitchtech/bs5-default",
+            "version": "v0.0.95",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/BS5-Default.git",
+                "reference": "32098de5828bf8404b47e38ffe9ef0280440e6c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/BS5-Default/zipball/32098de5828bf8404b47e38ffe9ef0280440e6c4",
+                "reference": "32098de5828bf8404b47e38ffe9ef0280440e6c4",
+                "shasum": ""
+            },
+            "require": {
+                "twbs/bootstrap-icons": "^1.11"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "Bootstrap 5 Theme and Libraries",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/BS5-Default/issues",
+                "source": "https://github.com/LouisOuellet/BS5-Default/tree/v0.0.95"
+            },
+            "time": "2024-05-09T01:32:38+00:00"
+        },
+        {
+            "name": "laswitchtech/php-api",
+            "version": "v2.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LouisOuellet/php-api.git",
+                "reference": "5c64a199d67c9048ff6b60c9e63da1cafb4a9d5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LouisOuellet/php-api/zipball/5c64a199d67c9048ff6b60c9e63da1cafb4a9d5f",
+                "reference": "5c64a199d67c9048ff6b60c9e63da1cafb4a9d5f",
+                "shasum": ""
+            },
+            "require": {
+                "components/jquery": "^3.6",
+                "laswitchtech/php-auth": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaswitchTech\\phpAPI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Louis Ouellet",
+                    "email": "louis_ouellet@hotmail.com"
+                }
+            ],
+            "description": "REST API for php applications",
+            "support": {
+                "issues": "https://github.com/LouisOuellet/php-api/issues",
+                "source": "https://github.com/LouisOuellet/php-api/tree/v2.0.15"
+            },
+            "time": "2024-04-03T18:20:45+00:00"
         },
         {
             "name": "laswitchtech/php-auth",
@@ -554,6 +630,45 @@
                 "source": "https://github.com/LouisOuellet/php-smtp/tree/v2.1.13"
             },
             "time": "2024-05-02T12:21:56+00:00"
+        },
+        {
+            "name": "twbs/bootstrap-icons",
+            "version": "v1.11.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/icons.git",
+                "reference": "8d88686c03c3768a2d82ba4f20c3c4e1b100fa29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/icons/zipball/8d88686c03c3768a2d82ba4f20c3c4e1b100fa29",
+                "reference": "8d88686c03c3768a2d82ba4f20c3c4e1b100fa29",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "Official open source SVG icon library for Bootstrap",
+            "homepage": "https://icons.getbootstrap.com/",
+            "keywords": [
+                "bootstrap",
+                "icon font",
+                "icons",
+                "svg"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/icons/issues",
+                "source": "https://github.com/twbs/icons/tree/v1.11.3"
+            },
+            "time": "2024-01-03T15:44:45+00:00"
         }
     ],
     "packages-dev": [],
