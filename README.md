@@ -1,5 +1,9 @@
-# Monitoring
 ![GUI](dist/img/Screenshots/Screenshot.png)
+# Monitoring
+![License](https://img.shields.io/github/license/LouisOuellet/monitoring?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/LouisOuellet/monitoring?style=for-the-badge&logo=github)
+![GitHub top language](https://img.shields.io/github/languages/top/LouisOuellet/monitoring?style=for-the-badge)
+![Version](https://img.shields.io/github/v/release/LouisOuellet/monitoring?label=Version&style=for-the-badge)
 Monitoring is a crucial part of any network. It allows you to keep track of the health of your network and to detect any issues that may arise.
 
 ## Usage
