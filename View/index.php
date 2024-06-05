@@ -24,8 +24,8 @@
         const myChart = new Chart(ctx, {
             type: 'line',
             data: {
-                labels: <?php echo json_encode($this->Return['chart']['labels']); ?>,
-                datasets: <?php echo json_encode(array_values($this->Return['chart']['datasets'])); ?>
+                labels: <?php if(isset($this->Return['chart'],$this->Return['chart']['labels'])){ echo json_encode($this->Return['chart']['labels']); } else { echo '[]'; } ?>,
+                datasets: <?php if(isset($this->Return['chart'],$this->Return['chart']['datasets'])){ echo json_encode(array_values($this->Return['chart']['datasets'])); } else { echo '[]'; } ?>
             },
             options: {
                 scales: {

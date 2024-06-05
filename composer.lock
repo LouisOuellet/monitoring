@@ -466,16 +466,16 @@
         },
         {
             "name": "laswitchtech/php-net",
-            "version": "v1.2.5",
+            "version": "v1.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LouisOuellet/php-net.git",
-                "reference": "a86c9cdc08a8ffe3075327f1a9dfb0599bd1463a"
+                "reference": "afd022c0ec27bd274ecd84d17bd971c93263d3ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LouisOuellet/php-net/zipball/a86c9cdc08a8ffe3075327f1a9dfb0599bd1463a",
-                "reference": "a86c9cdc08a8ffe3075327f1a9dfb0599bd1463a",
+                "url": "https://api.github.com/repos/LouisOuellet/php-net/zipball/afd022c0ec27bd274ecd84d17bd971c93263d3ff",
+                "reference": "afd022c0ec27bd274ecd84d17bd971c93263d3ff",
                 "shasum": ""
             },
             "require": {
@@ -500,9 +500,9 @@
             "description": "Network Tools Library for PHP",
             "support": {
                 "issues": "https://github.com/LouisOuellet/php-net/issues",
-                "source": "https://github.com/LouisOuellet/php-net/tree/v1.2.5"
+                "source": "https://github.com/LouisOuellet/php-net/tree/v1.2.6"
             },
-            "time": "2024-06-05T03:26:47+00:00"
+            "time": "2024-06-05T04:12:04+00:00"
         },
         {
             "name": "laswitchtech/php-router",
