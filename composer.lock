@@ -466,7 +466,7 @@
         },
         {
             "name": "laswitchtech/php-net",
-            "version": "v1.2.7",
+            "version": "v1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LouisOuellet/php-net.git",
@@ -500,7 +500,7 @@
             "description": "Network Tools Library for PHP",
             "support": {
                 "issues": "https://github.com/LouisOuellet/php-net/issues",
-                "source": "https://github.com/LouisOuellet/php-net/tree/v1.2.7"
+                "source": "https://github.com/LouisOuellet/php-net/tree/v1.2.8"
             },
             "time": "2024-06-05T12:10:16+00:00"
         },
