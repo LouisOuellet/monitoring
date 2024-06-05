@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+session_start();
+
+//Import phpCLI class into the global namespace
+//These must be at the top of your script, not inside a function
+use LaswitchTech\phpCLI\phpCLI;
+
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+
+// Interpret Standard Input
+if(defined('STDIN') && !empty($argv)){
+
+  // Start Command
+  new phpCLI($argv);
+}
