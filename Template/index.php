@@ -80,8 +80,19 @@ if($this->Configurator->get('identity','brand') === null){
         <!-- ======= Main ======= -->
         <main class="h-100 w-100">
 
-            <!--- Load View --->
-            <?php require $this->getViewFile(); ?>
+            <div class="container pt-5">
+                <h1>Monitoring</h1>
+                <div class="my-3 card p-3">
+                    <div class="input-group w-100 row m-0">
+                        <a href="/" class="col btn btn-<?php if($this->getRoute() !== '/'){ echo "outline-"; } ?>info">Index</a>
+                        <a href="/ping" class="col btn btn-<?php if($this->getRoute() !== '/ping'){ echo "outline-"; } ?>info">Ping</a>
+                        <a href="/port" class="col btn btn-<?php if($this->getRoute() !== '/port'){ echo "outline-"; } ?>info">Port</a>
+                        <a href="/lookup" class="col btn btn-<?php if($this->getRoute() !== '/lookup'){ echo "outline-"; } ?>info">Lookup</a>
+                    </div>
+                </div>
+                <!--- Load View --->
+                <?php require $this->getViewFile(); ?>
+            </div>
         </main>
         <!-- ======= End Main ======= -->
 
