@@ -1,12 +1,22 @@
-<form method="GET">
-    <select name="id">
-        <?php foreach($this->Return['scans'] as $scan): ?>
-            <option value="<?= $scan['id']; ?>"><?= $scan['type']; ?>: <?= $scan['target']; ?>:<?= $scan['port']; ?></option>
-        <?php endforeach; ?>
-    </select>
-    <button type="submit">Submit</button>
-</form>
-<canvas id="resultsChart" style="max-height:500px;"></canvas>
+<div class="container pt-5">
+    <h1>Monitoring</h1>
+    <div class="my-3 card p-3">
+        <form method="GET">
+            <div class="input-group d-flex flex-nowrap w-100">
+                <label class="input-group-text" for="id-field">Select a Scan</label>
+                <select id="id-field" class="form-select" name="id">
+                    <?php foreach($this->Return['scans'] as $scan): ?>
+                        <option value="<?= $scan['id']; ?>" <?php if(isset($_GET['id']) && $_GET['id'] == $scan['id']){ echo "selected"; } ?>><?= $scan['type']; ?>: <?= $scan['target']; ?>:<?= $scan['port']; ?></option>
+                    <?php endforeach; ?>
+                </select>
+                <button class="btn btn-success" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="my-3 card p-3">
+        <canvas id="resultsChart" style="max-height:500px;"></canvas>
+    </div>
+</div>
 <script>
     $(document).ready(function(){
         // Results Chart
