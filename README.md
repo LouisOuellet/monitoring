@@ -14,21 +14,21 @@ The command-line interface is the primary way to interact with the monitoring sy
 To add a new monitor, use the `scan add` command. For example, to add a monitor for the host `example.com`:
 
 ```
-$ ./cli scan add example.com
+./cli scan add example.com
 ```
 
 #### Execute all scans
 To execute all scans, use the `scan run` command:
 
 ```
-$ ./cli scan run
+./cli scan run
 ```
 
 ### GUI
 The GUI provides a graphical interface to the monitoring system. It allows you to view the status of the network and to perform various actions.
 
 #### View scan results
-To view the results of a scan, open a browser and navigate to `http://localhost:8000/`. You will see a list of all the scans that have been executed, along with their status and results.
+To view the results of a scan, open a browser and navigate to `http://localhost/`. You will see a list of all the scans that have been executed, along with their status and results.
 
 ### Setup
 The monitoring system consists of a command-line interface and a web server. To set up the system, follow these steps:
@@ -36,26 +36,26 @@ The monitoring system consists of a command-line interface and a web server. To 
 1. Install the dependencies:
 
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install -y apache2 php libapache2-mod-php php-mysql php-curl php-gd php-json php-mbstring php-xml php-zip php-common mariadb-server git composer nmap net-tools
+sudo apt-get update
+sudo apt-get install -y apache2 libapache2-mod-php php php-common php-mysql php-curl php-gd php-json php-mbstring php-xml php-zip mariadb-server git composer nmap net-tools
 ```
 
 2. Clone the repository:
 
 ```
-$ git clone https://github.com/LouisOuellet/monitoring.git
+git clone https://github.com/LouisOuellet/monitoring.git
 ```
 
 3. Assign the appropriate permissions:
 
 ```
-$ sudo chown -R www-data:www-data monitoring
+sudo chown -R www-data:www-data monitoring
 ```
 
 4. Setup Apache:
 
 ```
-$ sudo nano /etc/apache2/sites-available/000-default.conf
+sudo nano /etc/apache2/sites-available/000-default.conf
 ```
 
 Modify DocumentRoot to point to the monitoring directory:
@@ -64,15 +64,20 @@ Modify DocumentRoot to point to the monitoring directory:
 DocumentRoot /var/www/monitoring
 ```
 
+Enable the rewrite module:
+```
+sudo a2enmod rewrite
+```
+
 Restart Apache:
 ```
-$ sudo systemctl restart apache2
+sudo systemctl restart apache2
 ```
 
 5. Create the database:
 
 ```
-$ mysql -u root -p
+mysql -u root -p
 ```
 
 Create the database:
@@ -103,8 +108,8 @@ mysql> EXIT;
 6. Install the dependencies:
 
 ```
-$ cd monitoring
-$ composer update
+cd monitoring
+composer update
 ```
 
 7. Run the Installer:
@@ -114,7 +119,7 @@ Open a browser to `http://localhost/monitoring/install` and follow the instructi
 8. Add a cron job to execute the scans periodically. For example, to execute the scans every minute:
 
 ```
-$ crontab -e
+crontab -e
 ```
 
 Add the following line:
