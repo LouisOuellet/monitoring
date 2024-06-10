@@ -506,16 +506,16 @@
         },
         {
             "name": "laswitchtech/php-router",
-            "version": "v1.5.17",
+            "version": "v1.5.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LouisOuellet/php-router.git",
-                "reference": "4803ef7c38cfdd124be1c547a1a4b29bbea619fc"
+                "reference": "4908676b0172872f8e22ca67da902ed4b5f7a61a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LouisOuellet/php-router/zipball/4803ef7c38cfdd124be1c547a1a4b29bbea619fc",
-                "reference": "4803ef7c38cfdd124be1c547a1a4b29bbea619fc",
+                "url": "https://api.github.com/repos/LouisOuellet/php-router/zipball/4908676b0172872f8e22ca67da902ed4b5f7a61a",
+                "reference": "4908676b0172872f8e22ca67da902ed4b5f7a61a",
                 "shasum": ""
             },
             "require": {
@@ -544,9 +544,9 @@
             "description": "Router Class for PHP",
             "support": {
                 "issues": "https://github.com/LouisOuellet/php-router/issues",
-                "source": "https://github.com/LouisOuellet/php-router/tree/v1.5.17"
+                "source": "https://github.com/LouisOuellet/php-router/tree/v1.5.18"
             },
-            "time": "2024-06-10T15:46:58+00:00"
+            "time": "2024-06-10T16:20:47+00:00"
         },
         {
             "name": "laswitchtech/php-sms",
