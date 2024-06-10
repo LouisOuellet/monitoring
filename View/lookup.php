@@ -11,9 +11,9 @@
         </div>
     </form>
 </div>
-<div class="pb-3">
-    <div class="card p-3">
-        <?php if(isset($this->Return['results'])): ?>
+<?php if(isset($this->Return['results'])): ?>
+    <div class="pb-3">
+        <div class="card p-3">
             <?php foreach($this->Return['results'] as $result): ?>
                 <div class="bg-glass border-start border-info border-5 rounded <?php if($result['id'] !== $this->Return['results'][0]['id']){ echo "mt-3"; } ?>">
                     <div class="card-header">
@@ -29,9 +29,9 @@
                     </div>
                 </div>
             <?php endforeach; ?>
-        <?php endif; ?>
+        </div>
     </div>
-</div>
+<?php endif; ?>
 <script>
     $(document).ready(function(){
 

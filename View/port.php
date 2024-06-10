@@ -11,9 +11,11 @@
         </div>
     </form>
 </div>
-<div class="my-3 card p-3">
-    <canvas id="resultsChart" style="max-height:500px;"></canvas>
-</div>
+<?php if(isset($this->Return['chart'])): ?>
+    <div class="my-3 card p-3">
+        <canvas id="resultsChart" style="max-height:500px;"></canvas>
+    </div>
+<?php endif; ?>
 <script>
     $(document).ready(function(){
 
