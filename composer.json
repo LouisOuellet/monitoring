@@ -3,10 +3,10 @@
     "description": "Monitoring application",
     "type": "project",
     "require": {
-        "laswitchtech/php-net": "^1.1",
+        "laswitchtech/php-net": "^1.2",
         "laswitchtech/php-cli": "^2.0",
         "laswitchtech/php-router": "^1.5",
-        "laswitchtech/bs5-default": "^0.0.95",
+        "laswitchtech/bs5-default": "^0.0",
         "laswitchtech/php-api": "^2.0"
     },
     "license": "MIT",

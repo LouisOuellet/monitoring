@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfd20a9783f4362b1f9f9c2a14d423e8",
+    "content-hash": "baa126e4d01eac3126fa83ebababec90",
     "packages": [
         {
             "name": "components/jquery",
@@ -57,16 +57,16 @@
         },
         {
             "name": "laswitchtech/bs5-default",
-            "version": "v0.0.95",
+            "version": "v0.0.96",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LouisOuellet/BS5-Default.git",
-                "reference": "32098de5828bf8404b47e38ffe9ef0280440e6c4"
+                "reference": "5694e30722f1e451cec25fdf8cb08ead63c54c22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LouisOuellet/BS5-Default/zipball/32098de5828bf8404b47e38ffe9ef0280440e6c4",
-                "reference": "32098de5828bf8404b47e38ffe9ef0280440e6c4",
+                "url": "https://api.github.com/repos/LouisOuellet/BS5-Default/zipball/5694e30722f1e451cec25fdf8cb08ead63c54c22",
+                "reference": "5694e30722f1e451cec25fdf8cb08ead63c54c22",
                 "shasum": ""
             },
             "require": {
@@ -86,9 +86,9 @@
             "description": "Bootstrap 5 Theme and Libraries",
             "support": {
                 "issues": "https://github.com/LouisOuellet/BS5-Default/issues",
-                "source": "https://github.com/LouisOuellet/BS5-Default/tree/v0.0.95"
+                "source": "https://github.com/LouisOuellet/BS5-Default/tree/v0.0.96"
             },
-            "time": "2024-05-09T01:32:38+00:00"
+            "time": "2024-06-09T14:43:39+00:00"
         },
         {
             "name": "laswitchtech/php-api",
@@ -466,16 +466,16 @@
         },
         {
             "name": "laswitchtech/php-net",
-            "version": "v1.2.8",
+            "version": "v1.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LouisOuellet/php-net.git",
-                "reference": "527f7efebb03603d946870bcc1b3aa79538047e0"
+                "reference": "48c4dec045483724d1916a2916e0b01ae6497873"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LouisOuellet/php-net/zipball/527f7efebb03603d946870bcc1b3aa79538047e0",
-                "reference": "527f7efebb03603d946870bcc1b3aa79538047e0",
+                "url": "https://api.github.com/repos/LouisOuellet/php-net/zipball/48c4dec045483724d1916a2916e0b01ae6497873",
+                "reference": "48c4dec045483724d1916a2916e0b01ae6497873",
                 "shasum": ""
             },
             "require": {
@@ -500,22 +500,22 @@
             "description": "Network Tools Library for PHP",
             "support": {
                 "issues": "https://github.com/LouisOuellet/php-net/issues",
-                "source": "https://github.com/LouisOuellet/php-net/tree/v1.2.8"
+                "source": "https://github.com/LouisOuellet/php-net/tree/v1.2.9"
             },
-            "time": "2024-06-05T12:10:16+00:00"
+            "time": "2024-06-06T00:17:45+00:00"
         },
         {
             "name": "laswitchtech/php-router",
-            "version": "v1.5.15",
+            "version": "v1.5.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LouisOuellet/php-router.git",
-                "reference": "a1fcfd3ef7006b597f4b8fe15a1719c5e8ce3ed8"
+                "reference": "29efc9f380e72d65674b1718522e10fcc327ecd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LouisOuellet/php-router/zipball/a1fcfd3ef7006b597f4b8fe15a1719c5e8ce3ed8",
-                "reference": "a1fcfd3ef7006b597f4b8fe15a1719c5e8ce3ed8",
+                "url": "https://api.github.com/repos/LouisOuellet/php-router/zipball/29efc9f380e72d65674b1718522e10fcc327ecd0",
+                "reference": "29efc9f380e72d65674b1718522e10fcc327ecd0",
                 "shasum": ""
             },
             "require": {
@@ -544,9 +544,9 @@
             "description": "Router Class for PHP",
             "support": {
                 "issues": "https://github.com/LouisOuellet/php-router/issues",
-                "source": "https://github.com/LouisOuellet/php-router/tree/v1.5.15"
+                "source": "https://github.com/LouisOuellet/php-router/tree/v1.5.16"
             },
-            "time": "2024-05-27T20:44:36+00:00"
+            "time": "2024-06-10T15:02:08+00:00"
         },
         {
             "name": "laswitchtech/php-sms",
