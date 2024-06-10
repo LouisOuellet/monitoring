@@ -33,27 +33,91 @@ To view the results of a scan, open a browser and navigate to `http://localhost:
 ### Setup
 The monitoring system consists of a command-line interface and a web server. To set up the system, follow these steps:
 
-1. Clone the repository:
+1. Install the dependencies:
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install -y apache2 php libapache2-mod-php php-mysql php-curl php-gd php-json php-mbstring php-xml php-zip php-common mariadb-server git composer nmap net-tools
+```
+
+2. Clone the repository:
 
 ```
 $ git clone https://github.com/LouisOuellet/monitoring.git
 ```
 
-2. Install the dependencies:
+3. Assign the appropriate permissions:
+
+```
+$ sudo chown -R www-data:www-data monitoring
+```
+
+4. Setup Apache:
+
+```
+$ sudo nano /etc/apache2/sites-available/000-default.conf
+```
+
+Modify DocumentRoot to point to the monitoring directory:
+```
+# DocumentRoot /var/www/html
+DocumentRoot /var/www/monitoring
+```
+
+Restart Apache:
+```
+$ sudo systemctl restart apache2
+```
+
+5. Create the database:
+
+```
+$ mysql -u root -p
+```
+
+Create the database:
+```
+mysql> CREATE DATABASE monitoring;
+```
+
+Create the database user:
+```
+mysql> CREATE USER 'monitor'@'localhost' IDENTIFIED BY 'password';
+```
+
+Grant the necessary permissions:
+```
+mysql> GRANT ALL PRIVILEGES ON monitoring.* TO 'monitor'@'localhost';
+```
+
+Flush the privileges:
+```
+mysql> FLUSH PRIVILEGES;
+```
+
+Exit the MySQL shell:
+```
+mysql> EXIT;
+```
+
+6. Install the dependencies:
 
 ```
 $ cd monitoring
 $ composer update
 ```
 
-3. Start the web server:
+7. Run the Installer:
+
+Open a browser to `http://localhost/monitoring/install` and follow the instructions.
+
+8. Add a cron job to execute the scans periodically. For example, to execute the scans every minute:
 
 ```
-$ php -S localhost:8000
+$ crontab -e
 ```
 
-4. Add a cron job to execute the scans periodically. For example, to execute the scans every minute:
-
+Add the following line:
 ```
-* * * * * /path/to/cli scan run
+* * * * * php /var/www/monitoring/cli scan run
 ```
